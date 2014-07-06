@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EncSlotDialog</class>
+ <widget class="QDialog" name="EncSlotDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>480</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Encounter Frames</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>280</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>461</width>
+     <height>265</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="0">
+     <widget class="QCheckBox" name="land7">
+      <property name="text">
+       <string>Land 7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QCheckBox" name="land6">
+      <property name="text">
+       <string>Land 6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QCheckBox" name="land5">
+      <property name="text">
+       <string>Land 5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QCheckBox" name="land4">
+      <property name="text">
+       <string>Land 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QCheckBox" name="land2">
+      <property name="text">
+       <string>Land 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="land1">
+      <property name="text">
+       <string>Land 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QCheckBox" name="land0">
+      <property name="text">
+       <string>Land 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QCheckBox" name="land3">
+      <property name="text">
+       <string>Land 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QCheckBox" name="land8">
+      <property name="text">
+       <string>Land 8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QCheckBox" name="land9">
+      <property name="text">
+       <string>Land 9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QCheckBox" name="land10">
+      <property name="text">
+       <string>Land 10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QCheckBox" name="land11">
+      <property name="text">
+       <string>Land 11</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QCheckBox" name="water0">
+      <property name="text">
+       <string>Water 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QCheckBox" name="water1">
+      <property name="text">
+       <string>Water 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QCheckBox" name="water2">
+      <property name="text">
+       <string>Water 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QCheckBox" name="water3">
+      <property name="text">
+       <string>Water 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QCheckBox" name="water4">
+      <property name="text">
+       <string>Water 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QCheckBox" name="oldRod4">
+      <property name="text">
+       <string>Old Rod 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QCheckBox" name="oldRod3">
+      <property name="text">
+       <string>Old Rod 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QCheckBox" name="oldRod2">
+      <property name="text">
+       <string>Old Rod 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QCheckBox" name="oldRod1">
+      <property name="text">
+       <string>Old Rod 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QCheckBox" name="oldRod0">
+      <property name="text">
+       <string>Old Rod 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QCheckBox" name="superRod0">
+      <property name="text">
+       <string>Super Rod 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QCheckBox" name="superRod1">
+      <property name="text">
+       <string>Super Rod 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QCheckBox" name="superRod2">
+      <property name="text">
+       <string>Super Rod 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QCheckBox" name="superRod3">
+      <property name="text">
+       <string>Super Rod 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QCheckBox" name="superRod4">
+      <property name="text">
+       <string>Super Rod 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QCheckBox" name="goodRod0">
+      <property name="text">
+       <string>Good Rod 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QCheckBox" name="goodRod1">
+      <property name="text">
+       <string>Good Rod 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QCheckBox" name="goodRod2">
+      <property name="text">
+       <string>Good Rod 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QCheckBox" name="goodRod3">
+      <property name="text">
+       <string>Good Rod 3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QCheckBox" name="goodRod4">
+      <property name="text">
+       <string>Good Rod 4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QCheckBox" name="rockSmash0">
+      <property name="text">
+       <string>Rock Smash 0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QCheckBox" name="rockSmash1">
+      <property name="text">
+       <string>Rock Smash 1</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>land0</tabstop>
+  <tabstop>land1</tabstop>
+  <tabstop>land2</tabstop>
+  <tabstop>land3</tabstop>
+  <tabstop>land4</tabstop>
+  <tabstop>land5</tabstop>
+  <tabstop>land6</tabstop>
+  <tabstop>land7</tabstop>
+  <tabstop>land8</tabstop>
+  <tabstop>land9</tabstop>
+  <tabstop>land10</tabstop>
+  <tabstop>land11</tabstop>
+  <tabstop>water0</tabstop>
+  <tabstop>water1</tabstop>
+  <tabstop>water2</tabstop>
+  <tabstop>water3</tabstop>
+  <tabstop>water4</tabstop>
+  <tabstop>oldRod0</tabstop>
+  <tabstop>oldRod1</tabstop>
+  <tabstop>oldRod2</tabstop>
+  <tabstop>oldRod3</tabstop>
+  <tabstop>oldRod4</tabstop>
+  <tabstop>superRod0</tabstop>
+  <tabstop>superRod1</tabstop>
+  <tabstop>superRod2</tabstop>
+  <tabstop>superRod3</tabstop>
+  <tabstop>superRod4</tabstop>
+  <tabstop>buttonBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>EncSlotDialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>EncSlotDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

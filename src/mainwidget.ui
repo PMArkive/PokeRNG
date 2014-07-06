@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWidget</class>
+ <widget class="QWidget" name="MainWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>PokéRNG</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>761</width>
+     <height>596</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>HP</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Attack</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Defense</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Sp. Atk</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Sp. Def</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Speed</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QSpinBox" name="hp">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QSpinBox" name="attack">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QSpinBox" name="defense">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="QSpinBox" name="spAtk">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="QSpinBox" name="speed">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>IVs</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Search type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Nature</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4" colspan="2">
+     <widget class="QComboBox" name="hpType">
+      <item>
+       <property name="text">
+        <string>Any</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fighting</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Flying</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Poison</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ground</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bug</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ghost</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Steel</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Fire</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Water</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Grass</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Electric</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Psychic</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ice</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dragon</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dark</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="QSpinBox" name="hpPower">
+      <property name="minimum">
+       <number>30</number>
+      </property>
+      <property name="maximum">
+       <number>70</number>
+      </property>
+      <property name="value">
+       <number>30</number>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Hidden Power</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QComboBox" name="hpCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QComboBox" name="attackCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QComboBox" name="defenseCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="QComboBox" name="spAtkCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="QComboBox" name="spDefCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="5" column="6">
+     <widget class="QComboBox" name="speedCondition">
+      <item>
+       <property name="text">
+        <string>&gt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>==</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>&lt;=</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HP</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>Min. Delay</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QSpinBox" name="minDelay">
+      <property name="maximum">
+       <number>65535</number>
+      </property>
+      <property name="value">
+       <number>590</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>Max. Delay</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QSpinBox" name="maxDelay">
+      <property name="maximum">
+       <number>65535</number>
+      </property>
+      <property name="value">
+       <number>750</number>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1" colspan="2">
+     <widget class="QPushButton" name="startSearch">
+      <property name="text">
+       <string>Start Search</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="4" colspan="2">
+     <widget class="QPushButton" name="stopSearch">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Stop Search</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QComboBox" name="nature">
+      <item>
+       <property name="text">
+        <string>Any</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hardy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lonely</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Brave</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Adamant</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Naughty</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bold</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Docile</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Relaxed</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Impish</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lax</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Timid</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Hasty</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Serious</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jolly</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Naive</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Modest</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mild</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quiet</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Bashful</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Rash</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Calm</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Gentle</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sassy</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Careful</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Quirky</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="9" column="1" colspan="5">
+     <widget class="QProgressBar" name="progressBar">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="maximum">
+       <number>1024</number>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" colspan="2">
+     <widget class="QPushButton" name="saveToTxt">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Save to .txt</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="4" colspan="2">
+     <widget class="QPushButton" name="saveToCsv">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Save to .csv</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0" colspan="7">
+     <widget class="SpreadTableView" name="results">
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ExtendedSelection</enum>
+      </property>
+      <property name="selectionBehavior">
+       <enum>QAbstractItemView::SelectRows</enum>
+      </property>
+      <property name="sortingEnabled">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderHighlightSections">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderHighlightSections">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </item>
+    <item row="6" column="6">
+     <widget class="QSpinBox" name="year">
+      <property name="minimum">
+       <number>2000</number>
+      </property>
+      <property name="maximum">
+       <number>2099</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="QSpinBox" name="maxAltFrame">
+      <property name="maximum">
+       <number>99999</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="maxAltFrameLabel">
+      <property name="text">
+       <string>Max. MJ Frame</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QSpinBox" name="maxMainFrame">
+      <property name="maximum">
+       <number>99999</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>Max. M1 Frame</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Year</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="QSpinBox" name="spDef">
+      <property name="minimumSize">
+       <size>
+        <width>90</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>31</number>
+      </property>
+      <property name="value">
+       <number>31</number>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="QComboBox" name="oddEvenDelay">
+      <item>
+       <property name="text">
+        <string>Any delay</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Odd</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Even</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="QCheckBox" name="encSlots">
+      <property name="text">
+       <string>Enc. Slots:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="QPushButton" name="encSlotsEdit">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Edit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="6">
+     <widget class="QCheckBox" name="useSynch">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Use Synch</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Game Mode</string>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QRadioButton" name="modeDppt">
+          <property name="text">
+           <string>DPPt</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="modeHgss">
+          <property name="text">
+           <string>HGSS</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="3" colspan="2">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="minimumSize">
+       <size>
+        <width>200</width>
+        <height>48</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Search Mode</string>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="modeNarrow">
+          <property name="text">
+           <string>Narrow</string>
+          </property>
+          <property name="checked">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="modeWide">
+          <property name="text">
+           <string>Wide</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QCheckBox" name="shiny">
+      <property name="text">
+       <string>Shiny</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLabel" name="label">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Trainer ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QSpinBox" name="trainerId">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="wrapping">
+       <bool>true</bool>
+      </property>
+      <property name="maximum">
+       <number>65535</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Secret ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QSpinBox" name="secretId">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="wrapping">
+       <bool>true</bool>
+      </property>
+      <property name="maximum">
+       <number>65535</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Ability</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="QComboBox" name="ability">
+      <item>
+       <property name="text">
+        <string>Either</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>SpreadTableView</class>
+   <extends>QTableView</extends>
+   <header>spreadtableview.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>modeDppt</tabstop>
+  <tabstop>modeHgss</tabstop>
+  <tabstop>modeNarrow</tabstop>
+  <tabstop>modeWide</tabstop>
+  <tabstop>shiny</tabstop>
+  <tabstop>trainerId</tabstop>
+  <tabstop>secretId</tabstop>
+  <tabstop>ability</tabstop>
+  <tabstop>nature</tabstop>
+  <tabstop>hpType</tabstop>
+  <tabstop>hpPower</tabstop>
+  <tabstop>hp</tabstop>
+  <tabstop>attack</tabstop>
+  <tabstop>defense</tabstop>
+  <tabstop>spAtk</tabstop>
+  <tabstop>spDef</tabstop>
+  <tabstop>speed</tabstop>
+  <tabstop>hpCondition</tabstop>
+  <tabstop>attackCondition</tabstop>
+  <tabstop>defenseCondition</tabstop>
+  <tabstop>spAtkCondition</tabstop>
+  <tabstop>spDefCondition</tabstop>
+  <tabstop>speedCondition</tabstop>
+  <tabstop>minDelay</tabstop>
+  <tabstop>maxDelay</tabstop>
+  <tabstop>oddEvenDelay</tabstop>
+  <tabstop>year</tabstop>
+  <tabstop>maxMainFrame</tabstop>
+  <tabstop>maxAltFrame</tabstop>
+  <tabstop>encSlots</tabstop>
+  <tabstop>encSlotsEdit</tabstop>
+  <tabstop>useSynch</tabstop>
+  <tabstop>startSearch</tabstop>
+  <tabstop>stopSearch</tabstop>
+  <tabstop>results</tabstop>
+  <tabstop>saveToTxt</tabstop>
+  <tabstop>saveToCsv</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>shiny</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>357</x>
+     <y>38</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shiny</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>trainerId</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>476</x>
+     <y>39</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shiny</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>label_2</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>229</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>shiny</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>secretId</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>44</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>639</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
